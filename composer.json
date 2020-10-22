@@ -1,0 +1,29 @@
+{
+    "name": "mindscms/fortify-bootstrap",
+    "description": "Bootstrap template for laravel 8 Fortify",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^8.11",
+        "laravel/fortify": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mindscms\\FortifyBootstrap\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Mindscms\\FortifyBootstrap\\FortifyBootstrapServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sami Mansour",
+            "email": "mindscms@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
