@@ -11,13 +11,13 @@ You have to install [Laravel Fortify](https://github.com/laravel/fortify), and c
 To get started, install package using composer:
 
 ```bash
-composer require mindscms/fortify-bootstrapsss
+composer require mindscms/fortify-bootstrap
 ```
 
 Next, Run install artisan command to publish bootstrap scaffolding to application
 
 ```bash
-php artisan fortify:bootstrapsss
+php artisan fortify:bootstrap
 npm install && npm run dev
 ```
 

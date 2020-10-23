@@ -10,7 +10,7 @@
                         @method('PUT')
 
                         <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
+                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Current Password') }}</label>
                             <div class="col-md-6">
                                 <input id="current_password" type="password" class="form-control @error('current_password') is-invalid @enderror" name="current_password" required>
                                 @error('current_password')<span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>@enderror
